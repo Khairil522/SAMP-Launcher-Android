@@ -65,8 +65,8 @@ public class MainActivity extends Activity
 		    @Override
 		    public void onClick(View _view) 
 			{
-				writeFile("/storage/emulated/0/android/data/com.rockstargames.bully/files/rilapk.name", name.getText().toString());
-			    i = getPackageManager().getLaunchIntentForPackage("com.rockstargames.bully");
+				writeFile("/storage/emulated/0/android/data/com.rockstargames.gtasa/files/rilapk.name", name.getText().toString());
+			    i = getPackageManager().getLaunchIntentForPackage("com.rockstargames.gtasa");
 				startActivity(i);
 	        }
         });
