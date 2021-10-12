@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<LinearLayout
+		android:id="@+id/One"
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:gravity="center_vertical|center_horizontal">
+
+		<TextView
+			android:layout_width="215dp"
+			android:layout_height="30dp"
+			android:text="Name Yours Server"
+			android:textColor="#FFFFFFFF"
+			android:gravity="center_vertical|center_horizontal"
+			android:textSize="20sp"
+			android:layout_margin="10dp"
+			android:background="#FFFF0000"/>
+
+		<EditText
+			android:layout_width="wrap_content"
+			android:ems="10"
+			android:layout_height="50dp"
+			android:layout_gravity="center_vertical|center_horizontal"
+			android:singleLine="true"
+			android:hint="Change Name"
+			android:background="#FFFFFFFF"
+			android:paddingLeft="5dp"
+			android:paddingRight="5dp"
+			android:id="@+id/Name"/>
+
+		<LinearLayout
+			android:orientation="horizontal"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="5dp"
+			android:layout_margin="10dp">
+
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Connect"
+				android:textColor="#FFFFFFFF"
+				android:background="#FF0008FF"
+				android:layout_marginRight="10dp"
+				android:id="@+id/connect"/>
+
+			<Button
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="Exit"
+				android:textColor="#FFFFFFFF"
+				android:background="#FF0008FF"
+				android:layout_marginLeft="10dp"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>
+
