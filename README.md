@@ -4,3 +4,6 @@ Ini adalah Launcher SAMP untuk android, ini hanya untuk mengganti nama dan kemun
 # Build Test On
 - Android Studio.
 - AIDE(mobile).
+
+# settings.cpp source code SAMP
+( Test )
